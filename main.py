@@ -20,15 +20,16 @@ FayasNoushad = Client(
 )
 
 START_TEXT = """
-Hai {},\n\n`Iam a simple country Info bot. Give me a country name I will send the informations of the country.\n\n👲 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : [ʙx ʙᴏᴛᴢ](https://t.me/BX_Botz)
+Hai {},
+
+`Iam a simple country Info bot. Give me a country name I will send the informations of the country.`
+
+👲 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : [ʙx ʙᴏᴛᴢ](https://t.me/BX_Botz)
 """
 HELP_TEXT = """
 ➠ `Just Send Me a Country Name`
 
 ➠ `I Will Send Informations`
-
-<b><u>Informations :-</u></b>
-Name, Native Name, Capital, Population, Region, Sub Region, Top Level Domains, Calling Codes, Currencies, Residence, Timezone, Wikipedia, Google
 
 👲 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : [ʙx ʙᴏᴛᴢ](https://t.me/BX_Botz)
 """
