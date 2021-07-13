@@ -50,32 +50,31 @@ ABOUT_TEXT = """
 """
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Channel', url='https://telegram.me/FayasNoushad'),
-        InlineKeyboardButton('Feedback', url='https://telegram.me/TheFayas')
+        InlineKeyboardButton('🤖 Update Channel', url='https://telegram.me/BX_Botz'),
+        InlineKeyboardButton('👥Support Group', url='https://telegram.me/BxSupport')
         ],[
-        InlineKeyboardButton('Help', callback_data='help'),
-        InlineKeyboardButton('About', callback_data='about'),
-        InlineKeyboardButton('Close', callback_data='close')
+        InlineKeyboardButton('⚙️Help', callback_data='help'),
+        InlineKeyboardButton('🔰About', callback_data='about')
         ]]
     )
 HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Home', callback_data='home'),
-        InlineKeyboardButton('About', callback_data='about'),
-        InlineKeyboardButton('Close', callback_data='close')
+        InlineKeyboardButton('🏠Home', callback_data='home'),
+        InlineKeyboardButton('🔰About', callback_data='about'),
+        InlineKeyboardButton('🔐Close', callback_data='close')
         ]]
     )
 ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Home', callback_data='home'),
-        InlineKeyboardButton('Help', callback_data='help'),
-        InlineKeyboardButton('Close', callback_data='close')
+        InlineKeyboardButton('🏠Home', callback_data='home'),
+        InlineKeyboardButton('⚙️Help', callback_data='help'),
+        InlineKeyboardButton('🔐Close', callback_data='close')
         ]]
     )
 ERROR_BUTTON = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Help', callback_data='help'),
-        InlineKeyboardButton('Close', callback_data='close')
+        InlineKeyboardButton('🔰Help', callback_data='help'),
+        InlineKeyboardButton('🔐Close', callback_data='close')
         ]]
     )
 
@@ -130,11 +129,11 @@ Timezone : `{country.timezones()}`
     country_name = country_name.replace(" ", "+")
     reply_markup=InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Wikipedia', url=f'{country.wiki()}'),
-        InlineKeyboardButton('Google', url=f'https://www.google.com/search?q={country_name}')
+        InlineKeyboardButton('🤖 Update Channel', url=f'https://t.me/BX_Botz'),
+        InlineKeyboardButton('👥Support Group', url=f'https://t.me/BX_Botz')
         ],[
-        InlineKeyboardButton('Channel', url='https://telegram.me/FayasNoushad'),
-        InlineKeyboardButton('Feedback', url='https://telegram.me/TheFayas')
+        InlineKeyboardButton('💡Bot List', url='https://t.me/BX_Botz/31'),
+        InlineKeyboardButton('Google', url='https://www.google.com/search?q=india')
 
         ]]
     )
