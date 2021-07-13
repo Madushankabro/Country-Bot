@@ -34,13 +34,19 @@ HELP_TEXT = """
 👲 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : [ʙx ʙᴏᴛᴢ](https://t.me/BX_Botz)
 """
 ABOUT_TEXT = """
-- **Bot :** `Country Info Bot`
-- **Creator :** [Fayas](https://telegram.me/TheFayas)
-- **Channel :** [Fayas Noushad](https://telegram.me/FayasNoushad)
-- **Source :** [Click here](https://github.com/FayasNoushad/Country-Info-Bot/tree/main)
-- **Language :** [Python3](https://python.org)
-- **Library :** [Pyrogram](https://pyrogram.org)
-- **Server :** [Heroku](https://heroku.com)
+➠ **Bot** : Country Info Bot
+
+➠ **Creator** : [ᴍʜᴅ ᴍᴜꜰᴀz](https://telegram.me/Mufaz123)
+
+➠ **Channel** : @BX_Botz
+
+➠ **Source** : [Click here](https://t.me/nokiyirunnoippokitum)
+
+➠ **Language** : [Python3](https://python.org/)
+
+➠ **Library** : [Pyrogram v1.2.0](https://pyrogram.org/)
+
+➠ **Server** : [Heroku](https://heroku.com/)
 """
 START_BUTTONS = InlineKeyboardMarkup(
         [[
